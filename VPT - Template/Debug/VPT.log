@@ -1,5 +1,87 @@
-﻿Build started 10/24/2016 11:39:43 AM.
+﻿生成启动时间为 2016/10/30 22:06:15。
+     1>项目“C:\Users\JXH\Documents\Git\QuantisationAndCompression\VPT - Template\VPT.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../H264Codec/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\VPT.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../H264Codec/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\VPT.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt App\AppCompress.cpp App\AppQuantize.cpp AviLoader.cpp AviWriter.cpp CaptureSelect.cpp ChildFrm.cpp ConsoleView.cpp CustomSplitterWnd.cpp DSVideoGrabber.cpp ImageLoader.cpp ImgParam.cpp MainFrm.cpp Processing.cpp Tunnel.cpp VideoCapture.cpp VideoCtrlBar.cpp VideoCtrlFrm.cpp VPT.cpp VPTDoc.cpp VPTView.cpp Tools\cpuid.cpp Tools\DSGraphBuilder.cpp Tools\ImageConvert.cpp Tools\ImageFilter.cpp Tools\linklist.cpp Tools\NoiseGenerator.cpp Tools\VFWInterface.cpp
+         VFWInterface.cpp
+         NoiseGenerator.cpp
+         linklist.cpp
+         ImageFilter.cpp
+         ImageConvert.cpp
+         DSGraphBuilder.cpp
+         cpuid.cpp
+     1>c:\users\jxh\documents\git\quantisationandcompression\vpt - template\tools\cpuid.cpp(15): warning C4949: 只有使用“/clr[:option]”编译时，pragma“managed”和“unmanaged”才有意义
+         VPTView.cpp
+         VPTDoc.cpp
+         VPT.cpp
+         VideoCtrlFrm.cpp
+         VideoCtrlBar.cpp
+         VideoCapture.cpp
+         Tunnel.cpp
+         Processing.cpp
+         MainFrm.cpp
+         ImgParam.cpp
+         ImageLoader.cpp
+         DSVideoGrabber.cpp
+         CustomSplitterWnd.cpp
+         正在生成代码...
+         正在编译...
+         ConsoleView.cpp
+         ChildFrm.cpp
+         CaptureSelect.cpp
+         AviWriter.cpp
+         AviLoader.cpp
+         AppQuantize.cpp
+         AppCompress.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../H264Codec/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Tools\fixedPoint_c.c Tools\frame_yuv420.c Tools\mcTemporalFilter.c Tools\motionEstimation_yuv420.c
+         motionEstimation_yuv420.c
+         mcTemporalFilter.c
+         frame_yuv420.c
+         fixedPoint_c.c
+         正在生成代码...
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug\ /nologo /fo"Debug\VPT.res" VPT.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\JXH\Documents\Git\QuantisationAndCompression\VPT - Template\Debug\VPT.exe" /INCREMENTAL /NOLOGO vfw32.lib opengl32.lib Glu32.lib winmm.lib strmiids.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\JXH\Documents\Git\QuantisationAndCompression\VPT - Template\Debug\VPT.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE:NO /IMPLIB:"C:\Users\JXH\Documents\Git\QuantisationAndCompression\VPT - Template\Debug\VPT.lib" /MACHINE:X86 /PROFILE /SAFESEH Debug\VPT.res
+         Debug\AppCompress.obj
+         Debug\AppQuantize.obj
+         Debug\AviLoader.obj
+         Debug\AviWriter.obj
+         Debug\CaptureSelect.obj
+         Debug\ChildFrm.obj
+         Debug\ConsoleView.obj
+         Debug\CustomSplitterWnd.obj
+         Debug\DSVideoGrabber.obj
+         Debug\ImageLoader.obj
+         Debug\ImgParam.obj
+         Debug\MainFrm.obj
+         Debug\Processing.obj
+         Debug\stdafx.obj
+         Debug\Tunnel.obj
+         Debug\VideoCapture.obj
+         Debug\VideoCtrlBar.obj
+         Debug\VideoCtrlFrm.obj
+         Debug\VPT.obj
+         Debug\VPTDoc.obj
+         Debug\VPTView.obj
+         Debug\cpuid.obj
+         Debug\DSGraphBuilder.obj
+         Debug\fixedPoint_c.obj
+         Debug\frame_yuv420.obj
+         Debug\ImageConvert.obj
+         Debug\ImageFilter.obj
+         Debug\linklist.obj
+         Debug\mcTemporalFilter.obj
+         Debug\motionEstimation_yuv420.obj
+         Debug\NoiseGenerator.obj
+         Debug\VFWInterface.obj
+     1>LINK : warning LNK4075: 忽略“/INCREMENTAL”(由于“/PROFILE”规范)
+     1>AppCompress.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+         VPT.vcxproj -> C:\Users\JXH\Documents\Git\QuantisationAndCompression\VPT - Template\Debug\VPT.exe
+     1>已完成生成项目“C:\Users\JXH\Documents\Git\QuantisationAndCompression\VPT - Template\VPT.vcxproj”(Rebuild 个目标)的操作。
 
-Build succeeded.
+生成成功。
 
-Time Elapsed 00:00:00.20
+已用时间 00:00:10.42

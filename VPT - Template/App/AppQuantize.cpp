@@ -43,9 +43,10 @@ unsigned char *CAppQuantize::Quantize555(int &qDataSize) {
 	for(j = 0; j < height; j++) {
 		for(i = 0; i < width; i++) {
 			b = pInput[(i + j * width) * 3 + 0] ;	// Blue Color Component
-			g = pInput[(i + j * width) * 3 + 1] ;	// Red Color Component
-			r = pInput[(i + j * width) * 3 + 2] ;	// Green COlor Component
+			g = pInput[(i + j * width) * 3 + 1] ;	// Green Color Component
+			r = pInput[(i + j * width) * 3 + 2] ;	// Red COlor Component
 			rgb16 = ((r >> 3) << 10) | ((g >> 3) << 5) | (b >> 3) ;
+
 			quantizedImageData[(i + j * width) * 2 + 0] = rgb16 & 0xFF ;
 			quantizedImageData[(i + j * width) * 2 + 1] = (rgb16 >> 8) & 0xFF ;
 		}
@@ -82,8 +83,28 @@ unsigned char *CAppQuantize::Quantize565(int &qDataSize) {
 
 	// You can modify anything within this function, but you cannot change the function prototype.
 
+	/*****************************************************************************************************/
+
+	int i, j;
+	unsigned int r, g, b;
+	unsigned short rgb16;
+
 	qDataSize = width * height * 2 ;
 	unsigned char *quantizedImageData = new unsigned char[width * height * 2] ;
+
+	for (j = 0; j < height; j++) {
+		for (i = 0; i < width; i++) {
+			b = pInput[(i + j * width) * 3 + 0];	// Blue Color Component
+			g = pInput[(i + j * width) * 3 + 1];	// Green Color Component
+			r = pInput[(i + j * width) * 3 + 2];	// Red Color Component
+			rgb16 = ((r >> 3) << 11) | ((g >> 2) << 5) | (b >> 3);
+
+			quantizedImageData[(i + j * width) * 2 + 0] = rgb16 & 0xFF;
+			quantizedImageData[(i + j * width) * 2 + 1] = (rgb16 >> 8) & 0xFF;
+		}
+	}
+
+	/*****************************************************************************************************/
 
 	return quantizedImageData ;
 }
@@ -93,6 +114,26 @@ unsigned char *CAppQuantize::Quantize565(int &qDataSize) {
 void CAppQuantize::Dequantize565(unsigned char *quantizedImageData, unsigned char *unquantizedImageData) {
 
 	// You can modify anything within this function, but you cannot change the function prototype.
+
+	/*****************************************************************************************************/
+
+	int i, j;
+	unsigned int r, g, b;
+	unsigned short rgb16;
+
+	for (j = 0; j < height; j++) {
+		for (i = 0; i < width; i++) {
+			rgb16 = quantizedImageData[(i + j * width) * 2 + 0] | (((unsigned short)quantizedImageData[(i + j * width) * 2 + 1]) << 8);
+			b = rgb16 & 0x1F;
+			g = (rgb16 >> 5) & 0x3F;
+			r = (rgb16 >> 11) & 0x1F;
+			unquantizedImageData[(i + j * width) * 3 + 0] = (b << 3);
+			unquantizedImageData[(i + j * width) * 3 + 1] = (g << 2);
+			unquantizedImageData[(i + j * width) * 3 + 2] = (r << 3);
+		}
+	}
+
+	/*****************************************************************************************************/
 }
 
 void CAppQuantize::Process(void) {

@@ -35,7 +35,11 @@ unsigned char *CAppCompress::Compress(int &cDataSize) {
 													// Here, we simply set it to the size of the original image
 	compressedData = new unsigned char[cDataSize] ; // As an example, we just copy the original data as compressedData.
 
-	memcpy(compressedData, pInput, cDataSize) ;
+	/*****************************************************************************************************/
+
+	memcpy(compressedData, pInput, cDataSize) ;     // ½«pInputÑ¹Ëõµ½compressedDataÖÐ
+
+	/*****************************************************************************************************/
 
 	return compressedData ;		// return the compressed data
 }

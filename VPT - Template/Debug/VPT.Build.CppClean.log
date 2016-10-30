@@ -1,90 +1,85 @@
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VPT.PCH
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\STDAFX.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VC110.PDB
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\CUSTOMSPLITTERWND.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\DSVIDEOGRABBER.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\IMAGELOADER.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\IMGPARAM.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\MAINFRM.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\PROCESSING.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\TUNNEL.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VIDEOCAPTURE.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VIDEOCTRLBAR.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VIDEOCTRLFRM.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VPT.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VPTDOC.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VPTVIEW.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\CPUID.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\DSGRAPHBUILDER.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\IMAGECONVERT.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\IMAGEFILTER.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\LINKLIST.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\NOISEGENERATOR.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VFWINTERFACE.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\APPCOMPRESS.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\APPQUANTIZE.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\AVILOADER.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\AVIWRITER.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\CAPTURESELECT.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\CHILDFRM.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\CONSOLEVIEW.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\FIXEDPOINT_C.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\FRAME_YUV420.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\MCTEMPORALFILTER.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\MOTIONESTIMATION_YUV420.OBJ
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VPT.EXE
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VPT.PDB
-C:\USERS\RHYCHUNG\DESKTOP\PROGRAMMING ASSIGNMENT\VPT - TEMPLATE\DEBUG\VPT.RES
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\AppCompress.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\AppQuantize.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\AviLoader.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\AviWriter.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\CaptureSelect.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\ChildFrm.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\ConsoleView.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\cpuid.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\CustomSplitterWnd.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\DSGraphBuilder.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\DSVideoGrabber.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\fixedPoint_c.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\frame_yuv420.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\ImageConvert.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\ImageFilter.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\ImageLoader.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\ImgParam.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\linklist.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\MainFrm.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\mcTemporalFilter.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\motionEstimation_yuv420.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\NoiseGenerator.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\Processing.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\stdafx.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\Tunnel.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VFWInterface.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VideoCapture.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VideoCtrlBar.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VideoCtrlFrm.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VPT.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VPTDoc.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VPTView.obj
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\cl.command.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\CL.read.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\CL.write.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\link-cvtres.read.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\link-cvtres.write.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\link-mt.read.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\link-mt.write.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\link-rc.read.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\link-rc.write.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\link.command.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\link.read.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\link.write.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\rc.command.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\rc.read.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\rc.write.1.tlog
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VPT.res
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VPT.pch
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\vc110.idb
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\vc110.pdb
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VPT.pdb
-C:\Users\rhychung\Desktop\Programming Assignment\VPT - Template\Debug\VPT.exe
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vpt.pch
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vc120.pdb
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vc120.idb
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\stdafx.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\customsplitterwnd.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\dsvideograbber.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\imageloader.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\imgparam.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\mainfrm.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\processing.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\tunnel.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\videocapture.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\videoctrlbar.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\videoctrlfrm.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vpt.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vptdoc.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vptview.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\cpuid.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\dsgraphbuilder.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\imageconvert.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\imagefilter.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\linklist.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\noisegenerator.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vfwinterface.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\appcompress.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\appquantize.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\aviloader.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\aviwriter.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\captureselect.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\childfrm.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\consoleview.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\fixedpoint_c.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\frame_yuv420.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\mctemporalfilter.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\motionestimation_yuv420.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.pch
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vc120.pdb
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vc120.idb
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\stdafx.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\customsplitterwnd.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\dsvideograbber.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\imageloader.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\imgparam.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\mainfrm.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\processing.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\tunnel.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\videocapture.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\videoctrlbar.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\videoctrlfrm.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vptdoc.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vptview.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\cpuid.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\dsgraphbuilder.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\imageconvert.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\imagefilter.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\linklist.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\noisegenerator.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vfwinterface.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\appcompress.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\appquantize.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\aviloader.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\aviwriter.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\captureselect.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\childfrm.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\consoleview.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\fixedpoint_c.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\frame_yuv420.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\mctemporalfilter.obj
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\motionestimation_yuv420.obj
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vpt.exe
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vpt.pdb
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.exe
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.pdb
+c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vpt.res
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.res
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\cl.command.1.tlog
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\cl.read.1.tlog
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\cl.write.1.tlog
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\link.command.1.tlog
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\link.read.1.tlog
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\link.write.1.tlog
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\rc.command.1.tlog
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\rc.read.1.tlog
+c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\rc.write.1.tlog
