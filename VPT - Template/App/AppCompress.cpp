@@ -28,16 +28,159 @@ void CAppCompress::CustomFinal(void) {
 // The input reference variable cDataSize, is also serve as an output variable to indicate the size (in bytes) of the compressed data.
 unsigned char *CAppCompress::Compress(int &cDataSize) {
 
-	// You can modify anything within this function, but you cannot change the function prototype.
+	// 压缩后的数据
 	unsigned char *compressedData ;
-
-	cDataSize = width * height * 3 ;				// You need to determine the size of the compressed data. 
-													// Here, we simply set it to the size of the original image
-	compressedData = new unsigned char[cDataSize] ; // As an example, we just copy the original data as compressedData.
+	// 最大长度，如果compressedSize>=cDataSize,压缩失败
+	cDataSize = width * height * 3 ;	
+	// 存储压缩后的数据					
+	compressedData = new unsigned char[cDataSize] ; 
 
 	/*****************************************************************************************************/
+	// 实际压缩字符长度
+	int compressedSize = 0;
+	// 采用分通道游离的方法，按照每个通道相邻像素的重复性进行压缩
+	// b通道
+	unsigned short curB = pInput[0];// 第一个像素的b
+	unsigned short repeat = 1;// 重复次数
+	for (int i = 1; i < cDataSize; i++) {
+		unsigned short nextB = pInput[i * 3 + 0];// 下一个像素的b
+		if (nextB == curB) {
+			++repeat;
 
-	memcpy(compressedData, pInput, cDataSize) ;     // 将pInput压缩到compressedData中
+			// 如果是最后一个则存储
+			if (i == cDataSize-1)
+			{
+				// 存储最后一个b值组
+				compressedData[compressedSize] = repeat & 0xFF;
+				compressedData[compressedSize + 1] = curB & 0xFF;
+				// 增加编码数据长度
+				compressedSize += 2;
+			}
+		}else{
+			// 存储上一个b值组
+			compressedData[compressedSize] = repeat & 0xFF;
+			compressedData[compressedSize + 1] = curB & 0xFF;
+			// 增加编码数据长度
+			compressedSize += 2;
+
+			// 换下一种b值
+			curB = nextB;
+			repeat = 1;
+
+			// 如果是最后一个
+			if (i == cDataSize-1)
+			{
+				// 存储最后一个b值
+				compressedData[compressedSize] = repeat & 0xFF;
+				compressedData[compressedSize + 1] = curB & 0xFF;
+				// 增加编码数据长度
+				compressedSize += 2;
+			}
+		}
+
+		if (compressedSize > cDataSize)
+		{
+			// 压缩失败
+			memcpy(compressedData, pInput, cDataSize);
+			return compressedData;
+		}
+	}
+
+	// g通道
+	unsigned short curG = pInput[1];// 第一个像素的g
+	repeat = 1;// 重复次数
+	for (int i = 1; i < cDataSize; i++) {
+		unsigned short nextG = pInput[i * 3 + 1];// 下一个像素的g
+		if (nextG == curG) {
+			++repeat;
+
+			// 如果是最后一个则存储
+			if (i == cDataSize - 1)
+			{
+				// 存储最后一个g值组
+				compressedData[compressedSize] = repeat & 0xFF;
+				compressedData[compressedSize + 1] = curG & 0xFF;
+				// 增加编码数据长度
+				compressedSize += 2;
+			}
+		}
+		else{
+			// 存储上一个g值组
+			compressedData[compressedSize] = repeat & 0xFF;
+			compressedData[compressedSize + 1] = curG & 0xFF;
+			// 增加编码数据长度
+			compressedSize += 2;
+
+			// 换下一种g值
+			curG = nextG;
+			repeat = 1;
+
+			// 如果是最后一个
+			if (i == cDataSize - 1)
+			{
+				// 存储最后一个g值
+				compressedData[compressedSize] = repeat & 0xFF;
+				compressedData[compressedSize + 1] = curB & 0xFF;
+				// 增加编码数据长度
+				compressedSize += 2;
+			}
+		}
+
+		if (compressedSize > cDataSize)
+		{
+			// 压缩失败
+			memcpy(compressedData, pInput, cDataSize);
+			return compressedData;
+		}
+	}
+
+	// r通道
+	unsigned short curR = pInput[2];// 第一个像素的r
+	repeat = 1;// 重复次数
+	for (int i = 1; i < cDataSize; i++) {
+		unsigned short nextR = pInput[i * 3 + 2];// 下一个像素的r
+		if (nextR == curR) {
+			++repeat;
+
+			// 如果是最后一个则存储
+			if (i == cDataSize - 1)
+			{
+				// 存储最后一个g值组
+				compressedData[compressedSize] = repeat & 0xFF;
+				compressedData[compressedSize + 1] = curR & 0xFF;
+				// 增加编码数据长度
+				compressedSize += 2;
+			}
+		}
+		else{
+			// 存储上一个g值组
+			compressedData[compressedSize] = repeat & 0xFF;
+			compressedData[compressedSize + 1] = curR & 0xFF;
+			// 增加编码数据长度
+			compressedSize += 2;
+
+			// 换下一种r值
+			curR = nextR;
+			repeat = 1;
+
+			// 如果是最后一个
+			if (i == cDataSize - 1)
+			{
+				// 存储最后一个r值
+				compressedData[compressedSize] = repeat & 0xFF;
+				compressedData[compressedSize + 1] = curR & 0xFF;
+				// 增加编码数据长度
+				compressedSize += 2;
+			}
+		}
+
+		if (compressedSize > cDataSize)
+		{
+			// 压缩失败
+			memcpy(compressedData, pInput, cDataSize);
+			return compressedData;
+		}
+	}
 
 	/*****************************************************************************************************/
 
@@ -50,6 +193,13 @@ void CAppCompress::Decompress(unsigned char *compressedData, int cDataSize, unsi
 
 	// You can modify anything within this function, but you cannot change the function prototype.
 	memcpy(uncompressedData, compressedData, cDataSize) ;	// Here, we simply copy the compressedData into the output buffer.
+
+	/*****************************************************************************************************/
+
+
+
+	/*****************************************************************************************************/
+
 }
 
 

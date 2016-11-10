@@ -1,38 +1,3 @@
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vpt.pch
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vc120.pdb
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vc120.idb
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\stdafx.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\customsplitterwnd.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\dsvideograbber.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\imageloader.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\imgparam.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\mainfrm.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\processing.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\tunnel.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\videocapture.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\videoctrlbar.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\videoctrlfrm.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vpt.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vptdoc.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vptview.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\cpuid.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\dsgraphbuilder.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\imageconvert.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\imagefilter.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\linklist.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\noisegenerator.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vfwinterface.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\appcompress.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\appquantize.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\aviloader.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\aviwriter.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\captureselect.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\childfrm.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\consoleview.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\fixedpoint_c.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\frame_yuv420.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\mctemporalfilter.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\motionestimation_yuv420.obj
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.pch
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vc120.pdb
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vc120.idb
@@ -57,29 +22,12 @@ c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\image
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\linklist.obj
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\noisegenerator.obj
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vfwinterface.obj
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\appcompress.obj
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\appquantize.obj
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\aviloader.obj
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\aviwriter.obj
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\captureselect.obj
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\childfrm.obj
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\consoleview.obj
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\fixedpoint_c.obj
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\frame_yuv420.obj
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\mctemporalfilter.obj
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\motionestimation_yuv420.obj
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vpt.exe
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vpt.pdb
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.exe
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.pdb
-c:\users\jxh\desktop\multimedia assignment1\vpt - template\debug\vpt.res
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.res
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\cl.command.1.tlog
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\cl.read.1.tlog
 c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\cl.write.1.tlog
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\link.command.1.tlog
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\link.read.1.tlog
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\link.write.1.tlog
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\rc.command.1.tlog
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\rc.read.1.tlog
-c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.tlog\rc.write.1.tlog

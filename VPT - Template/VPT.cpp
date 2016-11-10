@@ -66,6 +66,13 @@ BOOL CVPTApp::InitInstance()
 	InitCtrls.dwICC = ICC_WIN95_CLASSES;
 	InitCommonControlsEx(&InitCtrls);
 
+	int size0 = sizeof(unsigned char);
+	int size1 = sizeof(int);
+	int size2 = sizeof(unsigned int);
+	int size3 = sizeof(short);
+	int size4 = sizeof(unsigned short);
+
+
 	CWinApp::InitInstance();
 
 	if (!AfxSocketInit())
