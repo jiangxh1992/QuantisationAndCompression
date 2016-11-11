@@ -1,5 +1,6 @@
-﻿生成启动时间为 2016/11/10 15:32:14。
+﻿生成启动时间为 2016/11/12 0:01:25。
      1>项目“C:\Users\JXH\Documents\Git\QuantisationAndCompression\VPT - Template\VPT.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppClean.targets(76,5): warning : 文件“c:\users\jxh\documents\git\quantisationandcompression\vpt - template\debug\vpt.pdb”正由另一进程使用，因此该进程无法访问此文件。
      1>ClCompile:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../H264Codec/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"Debug\VPT.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
          stdafx.cpp
@@ -34,6 +35,9 @@
          AviLoader.cpp
          AppQuantize.cpp
          AppCompress.cpp
+     1>c:\users\jxh\documents\git\quantisationandcompression\vpt - template\app\appcompress.cpp(239): warning C4101: “g”: 未引用的局部变量
+     1>c:\users\jxh\documents\git\quantisationandcompression\vpt - template\app\appcompress.cpp(239): warning C4101: “b”: 未引用的局部变量
+     1>c:\users\jxh\documents\git\quantisationandcompression\vpt - template\app\appcompress.cpp(239): warning C4101: “r”: 未引用的局部变量
          正在生成代码...
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I../H264Codec/include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Tools\fixedPoint_c.c Tools\frame_yuv420.c Tools\mcTemporalFilter.c Tools\motionEstimation_yuv420.c
          motionEstimation_yuv420.c
@@ -84,4 +88,4 @@
 
 生成成功。
 
-已用时间 00:00:10.77
+已用时间 00:00:09.23
